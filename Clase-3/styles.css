@@ -1,0 +1,27 @@
+:root {
+  --primary-color: purple;
+    --secondary-color: #3F5EFB;
+}
+body {
+ background: #3F5EFB;
+background: radial-gradient(circle,rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+height: 100vh; 
+font-family:"Montserrat", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: white;
+    text-decoration: underline wavy lightpink;
+    text-align: justify;
+    
+}
+p {
+    font-size: normal;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: capitalize;
+    text-align: justify;
+    text-indent: 30px;
+    letter-spacing: 1.5px;
+    line-height: 2.5;
+}
