@@ -1,0 +1,39 @@
+.box {
+    background-color: lightblue;
+    padding: 10px 30px;
+    border: 30px solid lightpink;
+
+
+}
+.box h1 {
+    background-color: salmon;
+
+}
+.margin {
+    margin: 20px;
+
+}
+.margin2 {
+
+    margin: 40px;
+
+}
+.contenedor {
+    background-color: lightsalmon;
+    height: 100vh;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.grid {
+    height: 100vh;
+    background-color: lemonchiffon;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+}
+.item:nth-child(even) {
+    background-color: lightcyan;
+    grid-column: span 2;
+}
