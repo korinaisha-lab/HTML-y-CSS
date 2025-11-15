@@ -1,0 +1,54 @@
+body    {
+    background-color: #7762ff;
+    font-family: "Dongle", sans-serif;
+
+}
+.logo {
+  display: flex;
+  align-items: center;
+
+}
+.logo h1 {
+  margin-left: 10px;
+  margin: 0;
+  font-size: 50px;
+
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+}
+button{
+    font-family: "Dongle", sans-serif;
+    font-size: 30px;
+}
+.btn1 {
+    background-color: #7762ff;
+    border: none;
+
+}
+.btn2 {
+    background-color: white;
+    border: none;
+    padding: 0px 20px;
+    color: #7762ff;
+    border-radius: 30px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons   {
+   display: flex;
+    gap: 20px;
+} 
+ 
+
