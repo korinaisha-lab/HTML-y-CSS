@@ -1,0 +1,86 @@
+/* Empiece la tarea aquí */
+body {
+   margin: 0;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: #f0f3ff;
+  color: #333;
+
+}
+header {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background: linear-gradient(135deg, #4b2cff, #8a4fff);
+  color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+header img {
+  margin-top: 1rem;
+  border-radius: 20px;
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}
+
+header .subtitulo {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  letter-spacing: 1px;
+}
+
+
+
+main {
+  margin-top: -1rem; /* para acercar un poco al header */
+}
+
+section {
+  background: white;
+  border-radius: 10px;
+  border: 2px solid #d8dbf7;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+
+h2 {
+  color: #1e2fa3;
+  border-bottom: 2px solid #cfd2ff;
+  padding-bottom: 0.4rem;
+  margin-top: 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+
+
+ul li, ol li {
+  margin-bottom: 0.5rem;
+}
+
+
+
+#contacto ul li strong {
+  color: #1e2fa3;
+}
+
+
+a {
+  color: #4b2cff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+  padding-bottom: 2rem;
+  color: #555;
+}
